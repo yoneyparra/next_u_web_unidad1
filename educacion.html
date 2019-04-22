@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="727" border="0">
+  <tr>
+    <td width="458"><img src="imagenes/logo.svg" width="180" height="132" /></td>
+  </tr>
+  <tr>
+    <td><h1><strong>Curriculm Vitae</strong></h1></td>
+  </tr>
+  <tr>
+    <td><h2>Nombre : Yoney</h2>
+      <h2>Apellidos : Parra Gomez</h2>
+    <h2>Fecha y lugar de Nacimiento : 11-05-1976, Bogotá (Colombia)</h2></td>
+  </tr>
+  <tr>
+    <td bgcolor="#00CC99"><h3><em><a href="index.html">Inicio</a> <a href="educacion.html"> Educación</a> <a href="experiencia.html"> Experiencia</a></em></h3></td>
+  </tr>
+  <tr>
+    <td><h2>Educación</h2>
+      <table width="443" border="1">
+        <tr>
+          <td width="90">Año </td>
+          <td width="184">Instutución</td>
+          <td width="66">Lugar</td>
+          <td width="75">Culmino?</td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <td>Exnacato</td>
+          <td>Bogotá</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2001</td>
+          <td>Universidad Cooperativa</td>
+          <td>Bogotá</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Next_u</td>
+          <td>Bogotá</td>
+          <td>NO</td>
+        </tr>
+      </table>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td><form id="form1" name="form1" method="post" action="">
+      <p>
+        <label for="lista"><strong>Año</strong></label>
+        <select name="lista" id="lista">
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+        </select>
+      </p>
+      <p>
+        <label for="institucion"><strong>Institución :</strong></label>
+        <span id="sprytextfield1">
+        <input type="text" name="institucion" id="institucion" />
+        <span class="textfieldRequiredMsg">Se necesita un valor.</span></span></p>
+      <p>
+        <label for="lugar"><strong>Lugar</strong></label>
+        <textarea name="lugar" id="lugar" cols="45" rows="5"></textarea>
+      </p>
+      <p>
+        <input type="submit" name="Enviar" id="Enviar" value="Enviar" />
+      </p>
+    </form>      <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td><p>correo electronico : yoney.parra@gmail.com</p>
+    <p>Teléfono : 300-3273888</p>
+    <p>Dirección : Cr 15 Bis 7-60 Bogotá, Colombia.</p></td>
+  </tr>
+</table>
+<script type="text/javascript">
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none");
+</script>
+</body>
+</html>
